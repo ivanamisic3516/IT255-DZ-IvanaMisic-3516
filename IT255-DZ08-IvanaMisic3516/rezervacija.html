@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>MetHotels</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" rel="stylesheet">
+    <script src="js.js"></script>
+</head>
+
+<body onload="timer()">
+    <div id="container">
+        <div class="top">
+            <div id="slikaRight">
+                <img src="img/met.jpg" />
+            </div>
+        </div>
+    </div>
+         <div id="mainMenu">
+	<nav>
+		<ul>
+		<div class="menuItem">
+            <li><a href="index.php">Pocetna</a></li>
+        </div>
+        <div class="menuItem">
+            <li><a href="onama.html">O nama</a></li>
+        </div>
+        <div class="menuItem">
+            <li><a href="rezervacija.html">Rezervacija</a></li>
+        </div>
+        <div class="menuItem">
+            <li><a href="galerija.html">Galerija</a></li>
+        </div>
+        <div class="menuItem">
+           <li><a href="kontakt.html">Kontakt</a></li>
+        </div>
+        <div class="menuItem">
+            <li><a href="register.php">Register</a></li>
+            </div>
+    <div class="menuItem">
+    <li><a href="log.php">Login</a></li>
+    </div>
+		</ul>
+		</nav>
+    </div>
+		<div id="container1">
+			<h3>Popunite rezervaciju</h3>
+			<br>
+			Unesite Vase ime: <input type="text" name="ime"><br>
+			Prezime: <input type="text" name="prezime"><br>
+			Email: <input type="text" name="email"><br>
+			Odabir sobe:
+			<br> 
+			<br>
+					<form action="sobe" >
+						<input type="radio" name="gender" value="jedan"> Superior Plus Double Room<br>
+						<input type="radio" name="gender" value="dva"> Two Interconnecting Family Rooms<br>
+						<input type="radio" name="gender" value="tri"> Business Suit<br>
+					</form>
+				Potvrdite rezervaciju<input type="submit" value="Submit"><br>
+	</div></body>
+	</html>

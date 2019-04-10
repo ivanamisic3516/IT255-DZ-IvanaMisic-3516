@@ -1,0 +1,35 @@
+<div class="container">
+    <h1>Rezervacija sobe</h1>
+    <form>
+      <div class="form-group">
+        <label for="name">Ime</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+ 
+      <div class="form-group">
+        <label for="prezime">Prezime</label>
+        <input type="text" class="form-control" id="prezime">
+      </div>
+ 
+      <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" class="form-control" id="email">
+        </div>
+
+        <div class="dropdown" osDropdown>
+
+            <button osDropdownToggle osBtn color="primary" class="dropdown-toggle waves-light" type="button"
+              osWavesEffect>
+              Odabir sobe
+            </button>
+            <div class="dropdown-menu dropdown-primary">
+              <a class="dropdown-item" href="#">Superior Plus Double Room</a>
+              <a class="dropdown-item" href="#">Two Interconnecting Family Rooms</a>
+              <a class="dropdown-item" href="#">Business Suit</a>
+            </div>
+        </div>
+
+      <h4>Potvrdite rezervaciju</h4> <br>
+        <button type="potvrdi" class="btn btn-success">Potvrdi</button>
+    </form>
+</div>
